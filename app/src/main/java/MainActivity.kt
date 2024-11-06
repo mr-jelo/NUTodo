@@ -1,6 +1,4 @@
 package com.example.nutodo
-
-
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -92,6 +90,6 @@ fun TaskItem(task: Task, onTaskClick: () -> Unit) {
 
 @Preview(showBackground = true)
 @Composable
-fun PreviewToDoApp() {
+fun NUToDo() {
     ToDoApp(viewModel = NuToDoViewModel())
 }
